@@ -1,0 +1,17 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Fitzone.desktop/FileContentIndex
+/.vs/Fitzone.desktop/v17
+/.vs
+/Fitzone.Solution/.vs/Fitzone.Solution/FileContentIndex
+/Fitzone.Solution/Fitzone.Controller/bin/Debug/net8.0
+/Fitzone.Solution/Fitzone.Controller/obj
+/Fitzone.Solution/Fitzone.EF/bin/Debug/net8.0
+/Fitzone.Solution/Fitzone.EF/obj
+/Fitzone.Solution/Fitzone.Entidades/bin/Debug/net8.0
+/Fitzone.Solution/Fitzone.Entidades/obj
+/Fitzone.Solution/Fitzone.Front/bin/Debug/net8.0-windows
+/Fitzone.Solution/Fitzone.Front/obj
+/Fitzone.Solution/Fitzone.Solution/obj
