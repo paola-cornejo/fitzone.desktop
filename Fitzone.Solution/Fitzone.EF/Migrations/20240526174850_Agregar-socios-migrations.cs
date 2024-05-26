@@ -1,4 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿
+// add-migration Agregar-socios-migrations
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
@@ -11,7 +13,9 @@ namespace Fitzone.EF.Migrations
         {
             migrationBuilder.Sql(@"
                        
-                            GO
+                            insert into Barrio values ('CENTRO') 
+
+                            GO                            
 
                             INSERT INTO [dbo].[Socio]
                                        ([nombre]
@@ -60,6 +64,8 @@ namespace Fitzone.EF.Migrations
                                        ,'4571'
                                        ,1)
                             GO
+
+                          
                     ");
         }
 
